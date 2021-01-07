@@ -1,6 +1,5 @@
 # multi-modal-pix2pix
-This repo
-Multi-modal fusion techniques on Cityscapes dataset.
+We perform Multi-modal fusion techniques on Cityscapes dataset.
 We extract the boundary maps from the Instance maps of the dataset to acquire a new modality.
 ## Dependencies
 
