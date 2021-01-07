@@ -6,9 +6,12 @@ We extract the boundary maps from the Instance maps of the dataset to acquire a 
 
 ```
 python>=3.6
-pytorch>=1.0.0
+torch>=1.4.0
+torchvision>=0.5.0
 scikit-learn>=0.20.2
 opencv-python>=4.0
+dominate>=2.4.0
+visdom>=0.1.8.8
 ```
 First, download the Cityscapes datset from the official web page: https://www.cityscapes-dataset.com/
 You should download gtFine_trainvaltest.zip and leftImg8bit_trainvaltest.zip . Unzip the files.
