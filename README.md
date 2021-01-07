@@ -44,6 +44,12 @@ For training the model, you can use the following script.
 cd CEN
 python3 main.py --gpu 0 --img-types 0 1 2 -c pix2pix_boundary
 ```
+Modalities
+```
+0:semantic_map
+1:boundary_map
+2:image
+```
 The script evaluates the model on the validation set based on FID and KID scores in every 5 epochs. The results will be stored in
 ```
 /CEN/image2image_translation/ckpt/pix2pix_boundary/results/
