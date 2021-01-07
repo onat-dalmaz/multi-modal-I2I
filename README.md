@@ -14,7 +14,7 @@ First, download the Cityscapes datset from the official web page: https://www.ci
 You should download gtFine_trainvaltest.zip and leftImg8bit_trainvaltest.zip . Unzip the files.
 After that, you can use preparecityscapes.py script in order to preprocess the dataset, and extract the boundary maps from the instance maps.
 ```
-python preparecityscapes.py 
+python3 preparecityscapes.py 
 ```
 ## For pix2pix
 The data should be in dataset/cityscapes/ folder.
@@ -49,7 +49,7 @@ The script evaluates the model on the validation set based on FID and KID scores
 /CEN/image2image_translation/ckpt/pix2pix_boundary/results/
 ```
 
-##FID KID scores
+## FID KID scores
 For calculating FID and KID scores between the results and the real images
 ```
 cd FID_KID
