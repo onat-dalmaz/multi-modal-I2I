@@ -18,6 +18,7 @@ visdom>=0.1.8.8
 git clone https://github.com/onimu23/multi-modal-pix2pix
 cd multi-modal-pix2pix
 ```
+## Dataset
 First, download the Cityscapes datset from the official web page: https://www.cityscapes-dataset.com/
 You should download gtFine_trainvaltest.zip and leftImg8bit_trainvaltest.zip . Unzip the files.
 After that, you can use preparecityscapes.py script in order to preprocess the dataset, and extract the boundary maps from the instance maps.
